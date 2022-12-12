@@ -14,7 +14,7 @@ function createGrid(numberCells) {
     // assign values in JS and pass to CSS
     box.style.cssText = `height: ${width}vh; width: ${width}vh; grid-template-columns: repeat(${numberCells}, calc(${width}vh/${numberCells}));`;
 
-    // build the pixels
+    // build the pixels— can make 'mouseover' into something like 'mousedown'
     for (let i = 0; i < numberCells ** 2; i++) {
         const square = document.createElement('div');
         square.addEventListener('mouseover', () => square.classList.add('pixel'));
