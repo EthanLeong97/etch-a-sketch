@@ -1,0 +1,14 @@
+.container {
+    display: grid;
+    /* height and width and grid column property set in JS */
+    padding: 0;
+    margin: 0;
+}
+
+.pixel {
+    border: 1px solid salmon;
+    padding: 0;
+    margin: 0;
+}
+
+/* TODO: Extra credit */
